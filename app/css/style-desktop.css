@@ -8,14 +8,19 @@ form{
 	margin: 0px;
 }
 
-.left-align{ 
+.sl-left-align{ }
+
+.sl-right-align{ 
+
+	transform: translateX(-100%);
+	left: 100%;
 
 }
 
-.right-align{ 
+.sl-center-align{  
+    
+	transform: translateX(-50%);
+	left: 50%;
 
 }
 
-.center-align{  
-
-}
